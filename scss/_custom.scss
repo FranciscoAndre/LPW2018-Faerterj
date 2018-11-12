@@ -1,0 +1,54 @@
+div.consulta-wrapper {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  table.consulta {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+
+    th {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 15px;
+      background-color: $black;
+      color: $white;
+    }
+
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 15px;
+    }
+
+  }
+
+}
+
+div.paging-wrapper {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  form.middle-form {
+    width: 0%;
+  }
+
+  form.previous-button {
+    float: left;
+    margin: 5px;
+  }
+
+  form.next-button {
+    float: right;
+    margin: 5px;
+  }
+
+  div.clear-fix-forms {
+    clear: both;
+    content: '';
+  }
+}
